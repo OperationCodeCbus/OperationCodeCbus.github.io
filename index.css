@@ -1,0 +1,46 @@
+body {
+  font-family: 'Padauk', sans-serif;
+  background-image: url('img/ohio_columbus.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#page_header {
+  width: 100%;
+  overflow: auto;
+}
+
+
+
+#logo {
+  width: 20%;
+  margin-left: 2%;
+  margin-top:1%;
+  display: block;
+  float:left;
+}
+
+#about_us {
+  margin-top: 35%;
+  width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+  /* text-align:center; */
+  /* background-image: url('img/background02.png'); */
+  /* background-size:100%; */
+}
+
+.header_item, a {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 5%;
+  float: right;
+  text-decoration: none;
+  color:white;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: .5ms;
+}
